@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*Global / Desktop View*/
+.news-title {
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 0 8px;
+}
+.news-author {
+  font-size: 15px;
+  font-weight: normal;
+  padding-bottom: 6px;
+}
+.heart {
+  color: #AD1503;
+}
+.news-detail {
+  font-size: 12px;
+  font-weight: normal;
+}

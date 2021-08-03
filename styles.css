@@ -1,0 +1,159 @@
+@charset "utf-8";
+/*Global / Desktop View*/
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+div, p {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+.background-image {
+  background-image: url(images/background-image-50.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 463px;
+}
+header {
+  background-color: transparent;
+  padding-top: 15px;
+}
+header a img {
+  height: 41px;
+  padding-left: 30px;
+  padding-top: 5px;
+  width: 370px;
+}
+nav {
+  float: right;
+  padding-right: 30px;
+}
+.desktop-view ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+.desktop-view ul li a {
+  color: #F1F1F1;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+.top-container {
+  color: #F1F1F1;
+  height: 405px;
+  padding: 103px 30px 0;
+}
+.home-title {
+  padding-bottom: 20px;
+}
+hr {
+  border-style: none;
+  border-top: 1px solid;
+  color: #FFFFFF;
+  margin: 0;
+  padding-bottom: 40px;
+}
+.btn-green {
+  background-color: #006837;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 15px;
+  text-decoration: none;
+}
+main {
+  background: #B2B2B2;
+  min-height: 800px;
+  padding-top: 30px;
+}
+.description-container {
+  background: #CBCBCB;
+  color: #1A1A1A;
+  font-size: 22px;
+  height: 210px;
+  margin-top: -37px;
+  padding: 60px 30px 0;
+  text-align: justify;
+}
+span {
+  font-weight: bold;
+}
+.mission-vision-container {
+  height: 420px;
+  padding: 60px 30px;
+}
+.mission {
+  padding-bottom: 20px;
+}
+.mission-content {
+  font-size: 20px;
+  padding-bottom: 50px;
+  text-align: justify;
+  width: 60%;
+}
+.vision {
+  padding-bottom: 20px;
+  padding-left: 500px
+}
+.vision-content {
+  font-size: 20px;
+  padding-left: 500px;
+  text-align: justify;
+}
+.theme-container {
+  background: #CBCBCB;
+  height: 360px;
+  padding: 60px 30px;
+}
+.theme {
+  padding-bottom: 20px;
+}
+.theme-content {
+  float: left;
+  font-size: 20px;
+  text-align: justify;
+  width: 50%;
+}
+.theme-logo {
+  float: right;
+  margin-top: -15px;
+  padding-right: 20px;
+  width: 45%;
+}
+footer {
+  background-color: #1A1A1A;
+  height: 80px;
+}
+.get-in-touch {
+  color: #F1F1F1;
+  float: left;
+  padding: 13px 80px 0 30px;
+}
+.social-fb-icon {
+  float: left;
+  padding-right: 20px;
+  padding-top: 25px;
+  width: 55px;
+}
+.social-email-icon {
+  float: left;
+  padding-top: 32px;
+  width: 38px;
+}
+.copyright {
+  color: #F1F1F1;
+  float: right;
+  font-size: 12px;
+  opacity: .67;
+  padding-right: 30px;
+  padding-top: 46px;
+}

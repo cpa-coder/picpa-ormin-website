@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*Global / Desktop View*/
+.page-title {
+  padding-top: 60px;
+}
+.middle-container {
+  height: 1000px;
+  padding: 10px 55px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.right {
+  padding-left: 20px;
+}
+.banner {
+  height: 326px;
+  padding-top: 40px;
+  width: 589px;
+}
+a {
+  color: #551A8F;
+  text-decoration: none;
+}
+.event-title {
+  padding: 12px 0;
+}
+.event-icon {
+  height: 25px;
+  width: 25px;
+}
+.event-detail {
+  font-weight: normal;
+  margin-left: 5px;
+}
