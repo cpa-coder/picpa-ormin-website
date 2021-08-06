@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   height: 463px;
 }
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
 header {
   background-color: transparent;
   padding-top: 15px;
@@ -141,13 +145,13 @@ footer {
 .social-fb-icon {
   float: left;
   padding-right: 20px;
-  padding-top: 25px;
-  width: 55px;
+  padding-top: 30px;
+  width: 50px;
 }
 .social-email-icon {
   float: left;
-  padding-top: 32px;
-  width: 38px;
+  padding-top: 36px;
+  width: 32px;
 }
 .copyright {
   color: #F1F1F1;

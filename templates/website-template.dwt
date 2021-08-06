@@ -16,31 +16,36 @@
 
 <body>
 <div class="background-image">
-  <header> <a href="../index.html"><img src="../images/picpa-ormin-logo.svg" alt="PICPA Oriental Mindoro Website Logo"/></a>
-    <nav>
-      <div class="desktop-view">
-        <ul>
-          <li><a href="../index.html">HOME</a></li>
-          <li><a href="../pages/events/events.html">EVENTS</a></li>
-          <li><a href="../pages/news/news.html">NEWS</a></li>
-          <li><a href="../pages/membership/membership.html">MEMBERSHIP</a></li>
-          <li><a href="../pages/aboutUs/aboutUs.html">ABOUT US</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <!-- TemplateBeginEditable name="top-container-content" -->
-  <div class="top-container"></div>
-  <!-- TemplateEndEditable --></div>
+  <div class="container">
+    <header> <a href="../index.html"><img src="../images/picpa-ormin-logo.svg" alt="PICPA Oriental Mindoro Website Logo"/></a>
+      <nav>
+        <div class="desktop-view">
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../pages/events/events.html">EVENTS</a></li>
+            <li><a href="../pages/news/news.html">NEWS</a></li>
+            <li><a href="../pages/membership/membership.html">MEMBERSHIP</a></li>
+            <li><a href="../pages/aboutUs/aboutUs.html">ABOUT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <div class="container"> <!-- TemplateBeginEditable name="top-container-content" -->
+    <div class="top-container"></div>
+    <!-- TemplateEndEditable --></div>
+</div>
 <!-- TemplateBeginEditable name="main-content" -->
-<main></main>
+<main> </main>
 <!-- TemplateEndEditable -->
 <footer>
-  <h3 class="get-in-touch">GET IN<br>
-    TOUCH</h3>
-  <div class="social-fb-icon"><a href="https://facebook.com/picpa.ormindoro.9" target="_blank"><img src="../images/social-fb-icon.svg" alt="PICPA OrMin Facebook"></a></div>
-  <div class="social-email-icon"><a href="mailto: picpaormin2021@gmail.com" target="_blank"><img src="../images/social-email-icon.svg" alt="PICPA OrMin Email"></a></div>
-  <p class="copyright">Copyright © 2021. All rights reserved.</p>
+  <div class="container">
+    <h3 class="get-in-touch">GET IN<br>
+      TOUCH</h3>
+    <div class="social-fb-icon"><a href="https://facebook.com/picpa.ormindoro.9" target="_blank"><img src="../images/social-fb-icon.svg" alt="PICPA OrMin Facebook"></a></div>
+    <div class="social-email-icon"><a href="mailto: picpaormin2021@gmail.com" target="_blank"><img src="../images/social-email-icon.svg" alt="PICPA OrMin Email"></a></div>
+    <p class="copyright">Copyright © 2021. All rights reserved.</p>
+  </div>
 </footer>
 </body>
 </html>
