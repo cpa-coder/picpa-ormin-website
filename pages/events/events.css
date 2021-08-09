@@ -3,26 +3,25 @@
 .page-title {
   padding-top: 60px;
 }
-.middle-container {
-  height: 1000px;
-  padding: 10px 55px;
+main {
+  min-height: 1095px;
 }
-.column {
-  float: left;
-  width: 50%;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 30px auto;
+  margin: 0 30px;
+  text-align: left;
 }
-.row:after {
-  clear: both;
-  content: "";
-  display: table;
+.column-left {
+  grid-column: 1;
 }
-.right {
-  padding-left: 20px;
+.column-right {
+  grid-column: 3;
 }
 .banner {
-  height: 326px;
-  padding-top: 40px;
-  width: 589px;
+  height: 80%;
+  padding-top: 60px;
+  width: 100%;
 }
 a {
   color: #551A8F;
@@ -35,7 +34,12 @@ a {
   height: 25px;
   width: 25px;
 }
-.event-detail {
-  font-weight: normal;
+.event-details {
   margin-left: 5px;
+}
+.no-events {
+  font-family: 'Roboto', sans-serif;
+  padding: 25% 25%;
+  text-align: center;
+  ;
 }
