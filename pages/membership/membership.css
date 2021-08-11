@@ -3,49 +3,62 @@
 .page-title {
   padding-top: 60px;
 }
-.middle-container {
-  padding: 10px 100px;
+.height {
+  height: 7700px;
+}
+.reg-padding {
+  padding: 50px 0 40px 30px;
 }
 .registration {
-  font-size: 20px;
-  padding-bottom: 50px;
+  font-size: 1.3rem;
 }
-.registration-content {
+.grid-container {
+  background: #CBCBCB;
+  border-radius: 5px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  grid-template-columns: 30px 450px 400px;
+  grid-template-rows: auto;
   margin: auto;
-  width: 900px;
-}
-.column {
-  float: left;
+  max-width: 1000px;
+  padding: 60px 40px;
 }
 .left {
-  width: 5%;
+  grid-column: 1;
 }
 .middle {
-  padding-left: 10px;
-  width: 50%;
+  grid-column: 2;
 }
 .right {
-  text-align: center;
-  width: 45%;
+  grid-column: 3;
 }
-.middle-to-right {
-  padding-left: 10px;
-  width: 95%;
-}
-.row:after {
-  clear: both;
-  content: "";
-  display: table;
-  padding-bottom: 40px;
+.two-column {
+  grid-column: 2 / span 3;
+  max-width: 850px;
 }
 .step {
-  float: left;
-  font-size: 70px;
+  font-size: 4rem;
   font-weight: 900;
-  margin-top: -18px;
+  margin-top: -15px;
+  text-align: center;
+}
+.image {
+  max-width: 400px;
+  text-align: center;
 }
 .p1 {
   padding-bottom: 20px;
+}
+.padding {
+  padding: 0 0 20px 40px;
+}
+.padding-bottom {
+  padding-bottom: 30px;
+}
+.center {
+  padding-bottom: 20px;
+  text-align: center;
 }
 .p2 {
   font-weight: bold;
@@ -59,11 +72,12 @@
   margin-left: 55px;
   padding-top: 10px;
 }
-.instruction-img {
-  padding: 20px 0;
-  text-align: center;
-  width: 100%;
-}
 .application-details-img {
   padding: 40px 0 20px 40px;
+}
+.contact {
+  padding: 0 0 20px 20px;
+}
+img{
+    border-radius: 5px;
 }
