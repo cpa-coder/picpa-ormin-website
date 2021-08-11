@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 .background-image {
-  background-image: url(images/background-image-50.jpg);
+  background-image: url(images/background-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
