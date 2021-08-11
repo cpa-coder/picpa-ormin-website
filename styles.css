@@ -67,7 +67,7 @@ nav {
   padding-bottom: 40px;
 }
 .btn-green {
-  background-color: #006837;
+  background-color: #13AA52;
   border-width: 1px;
   border-radius: 5px;
   color: #FFFFFF;
@@ -75,7 +75,7 @@ nav {
   text-decoration: none;
 }
 main {
-  background: #B2B2B2;
+  background: #F6FAFD;
   min-height: 800px;
 }
 .dotted-line {
